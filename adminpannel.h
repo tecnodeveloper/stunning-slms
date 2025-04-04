@@ -1,3 +1,4 @@
+using namespace std;
 class adminpannel {
 private:
 	string adminName;
@@ -5,7 +6,7 @@ private:
 		string name;
 		adminpannel()
 		{
-			cout << "Just checking that constructor works";
+			cout << "Construction of admin pannel is still on working. Please be patient" << endl; ;
 		}
 
 };

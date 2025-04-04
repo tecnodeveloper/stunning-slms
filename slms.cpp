@@ -11,15 +11,28 @@ int main()
     cout << " -------------------------------- Welcome to Learning Management System -------------------------------- " << endl;
     cout << " ------------------------------------------------------------------------------------------------------- " << endl;
     cout << " ------------------------------------------------------------------------------------------------------- " << endl;
-    cout << "Press 1 for Admin pannel: "<<endl;
-    cout << "Press 2 for Student pannel: " << endl;
-    if (input == 1)
+    do
     {
-        adminpannel adminobj;
-    }
-    else
-    {
-        studentpannel studentobj;
-    }
+        cout << "Press 1 for Admin pannel \t \t \t Press 2 for Student pannel: " << endl;
+        cin >> input;
+        if (input == 1 || input == 2)
+        {
+            if (input == 1)
+            {
+                adminpannel adminobj;
+            }
+            else if(input == 2)
+            {
+                studentpannel studentobj;
+            }
+            break;
+
+        }
+        else
+        {
+
+            cout << "Try again! Press only 1 or 2 " << endl;
+        }
+    } while (true);
     return 0;
 }
