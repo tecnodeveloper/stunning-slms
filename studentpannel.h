@@ -3,7 +3,7 @@ class studentpannel {
 private:
 	string fName;
 	string lName;
-	string fatherName
+	string fatherName;
 		int cnic;
 		int age;
 public:
@@ -19,7 +19,6 @@ public:
 	}
 
 	string signUp() {
-
 		cout << "Please enter your first name: " << endl;
 		cin >> firstName;
 		cout << "Please enter your last name: " << endl;
@@ -27,22 +26,36 @@ public:
 		cout << "Please enter your father name: " << endl;
 		cin >> FatherName;
 	}
+	string getFirstName()
+	{
+		return firstName;
+	}
+	string getLastName()
+	{
+		return firstName;
+	}
+	string getFirstName()
+	{
+		return firstName;
+	}
+
 
 	void setFirstName(string firstName)
 	{
 		fName = firstName;
 
 	}
-	void setFirstName(string lastName)
+	void setLastName(string lastName)
 	{
 		fName = lastName;
 
 	}
-	void setFirstName(string FatherName)
+	void setfatherName(string FatherName)
 	{
 		fatherName = FatherName;
 
 	}
+
 
 
 };
