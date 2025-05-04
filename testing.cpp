@@ -13,6 +13,8 @@ int main()
     cin>>num;
     if (num == 1)
     {
+        cout<<"Enter your name: "<<endl;
+        getline(cin,Fullname);
 
 
         // cin>>fname;
@@ -20,8 +22,7 @@ int main()
         cin>>rollno;
         cout<<"Enter your email address: "<<endl;
         cin>>email;
-        cout<<"Enter your fullname: "<<endl;
-        getline(cin, Fullname);
+
         // cin>>Fullname;
         cout<<Fullname<<endl;
         cout<<rollno<<endl;
