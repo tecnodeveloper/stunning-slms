@@ -13,15 +13,15 @@ int main()
     cin>>num;
     if (num == 1)
     {
+        cin.ignore();
+        cout<<"Enter your fullname: "<<endl;
+        getline(cin, Fullname);
 
-
-        // cin>>fname;
         cout<<"Enter your rollno:"<<endl;
         cin>>rollno;
         cout<<"Enter your email address: "<<endl;
         cin>>email;
-        cout<<"Enter your fullname: "<<endl;
-        getline(cin, Fullname);
+
         // cin>>Fullname;
         cout<<Fullname<<endl;
         cout<<rollno<<endl;
