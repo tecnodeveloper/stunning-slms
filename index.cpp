@@ -1,6 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+// Switches of class and structure | one is on and then other is off
 // #define Struct_Implementation
 #define Class_Implementation
 using namespace std;
